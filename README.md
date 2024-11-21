@@ -2,6 +2,9 @@
 
 Odometry Demo by DeepX team for AI tinkerers meetup (Palo Alto, 20th November 2024).
 
+![CleanShot 2024-11-20 at 16 20 07@2x](https://github.com/user-attachments/assets/f5e8807a-ed02-400e-8111-20a184e94d12)
+
+
 The **Lucas-Kanade Optical Flow** (calcOpticalFlowPyrLK) and **Affine Transformation Estimation** (estimateAffinePartial2D) serve complementary purposes in this simple visual odometry pipeline. 
 
 **Lucas-Kanade Optical Flow**:
@@ -23,6 +26,9 @@ This step outputs two sets of keypoints:
 2. Estimating Motion with Affine Transformation:
 * Takes the tracked keypoints (tracked_prev and tracked_next) and computes the overall motion model between the two frames.
 This summarizes the relative translation, rotation, and scaling, which is used to update the camera trajectory.
+
+
+![CleanShot 2024-11-20 at 16 20 52@2x](https://github.com/user-attachments/assets/f45d40c9-6191-4be8-be33-16b91fac768d)
 
 **Analogy**:
 Imagine you're tracking a car's path using landmarks:
