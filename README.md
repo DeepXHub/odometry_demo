@@ -38,3 +38,14 @@ Imagine you're tracking a car's path using landmarks:
 Both are essential:
 * Lucas-Kanade gives you the **local movement of points**.
 * Affine transformation combines these movements into a **global motion model**.
+
+![CleanShot 2024-11-20 at 16 25 47@2x](https://github.com/user-attachments/assets/03d33cc6-f4ea-43ff-83a8-119746d53d57)
+
+![CleanShot 2024-11-20 at 16 26 13@2x](https://github.com/user-attachments/assets/647c0cd7-6b77-4dd7-89a5-49f1e54054e1)
+
+![CleanShot 2024-11-20 at 16 26 49@2x](https://github.com/user-attachments/assets/9247ed53-226d-4229-a8a0-49c0a3b3850c)
+
+
+
+
+
